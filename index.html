@@ -9,7 +9,21 @@
 </head>
 
 <body>
-
+    <h3>cross-fetch playground</h3>
+    <p>
+        Is the fetch polyfill being used right now?
+        <strong>
+            <script>
+                document.write(fetch.polyfill ? 'Yes.' : 'No.');
+            </script>
+        </strong>
+    </p>
+    <span>response</span>
+    <pre id="content">
+  loading..
+</pre>
+    <script src="https://unpkg.com/cross-fetch/dist/cross-fetch.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
